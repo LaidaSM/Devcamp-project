@@ -1,0 +1,103 @@
+/* Header styles */
+
+.header {
+    background-color: black;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+/* Left section styles */
+
+.header > .left-section {
+    height: 100%;
+    padding-left: 10px;
+}
+
+.header > .left-section > .logo-header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header > .left-section > .logo-header img {
+    height: 40px;
+}
+
+/* Center section styles */
+
+.header > .center-section {
+    display: flex;
+    align-items: center;
+}
+
+.header > .center-section > .nav-bar-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > .center-section > .nav-bar-wrapper > .explore-heading h1{
+   color: #f4e180;
+   text-transform: uppercase;
+   font-size: 1.25em;
+   margin: 0px;
+}
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .nav-links > .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown {
+    color: #c9c9c9;
+    padding-left: 25px;
+    font-size: 1.5em;
+}
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown i{
+    padding-left: 10px;
+    font-size: 0.8em;
+}
+
+/* Right section styles */
+
+.header > .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header > .right-section > .btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > .right-section > .btn-wrapper > .create-dropdown {
+    background-color: #36383f;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.header > .right-section > .btn-wrapper > .create-dropdown i{
+    color: #49c877;
+    padding-left: 5px;
+}
