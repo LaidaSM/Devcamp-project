@@ -20,6 +20,10 @@
         margin-bottom: 20px;
     }
 
+    .header > .center-section > .nav-bar-wrapper {
+        width: 100%;
+    }
+
     .header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .nav-links {
        flex-direction: column;
     }
@@ -44,6 +48,10 @@
     .main-page {
         display: flex;
         flex-direction: column;
+    }
+
+    .main-page > .left-section > .text-btn-wrapper > .btn-wrapper {
+        width: 90%;
     }
 
     /* Footer media queries */

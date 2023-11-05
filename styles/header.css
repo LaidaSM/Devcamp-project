@@ -32,7 +32,7 @@
 }
 
 .header > .center-section > .nav-bar-wrapper {
-    width: 100%;
+    width: 500px;
     display: flex;
     flex-direction: column;
 }

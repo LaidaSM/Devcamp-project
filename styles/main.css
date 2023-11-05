@@ -42,7 +42,7 @@
 .main-page > .left-section > .text-btn-wrapper > .btn-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 83%;
+    width: 500px;
 }
 
 .main-page > .left-section > .text-btn-wrapper > .btn-wrapper > .sign-up-btn {
