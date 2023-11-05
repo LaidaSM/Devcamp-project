@@ -1,0 +1,107 @@
+/* Main page styles */
+.main-page {
+    height: 100%;
+    background-color: rgba(61, 65, 74, 1);
+    background-image: linear-gradient(145deg, rgba(61, 65, 74, 1) 3%, rgba(0, 0, 0, 1) 90%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Left section styles */
+
+.main-page > .left-section {
+    padding-left: 50px;
+}
+
+.main-page > .left-section > .text-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .introduction1 p {
+    color: white;
+    font-size: 2.25em;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .introduction1 span{
+    font-weight: 700;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .introduction1 > p> #wave-hand-emoji {
+    height: 33px;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .introduction2 p {
+    font-size: 1.7em;
+    color: #aab3b3;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .btn-wrapper > .sign-up-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4bce79;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .btn-wrapper > .sign-up-btn a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .btn-wrapper > .learn-more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+.main-page > .left-section > .text-btn-wrapper > .btn-wrapper > .learn-more-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+/* Right section styles */
+
+.main-page > .right-section > .heading-banner-wrapper {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-page > .right-section > .heading-banner-wrapper > .heading {
+    width: 440px;
+}
+
+.main-page > .right-section > .heading-banner-wrapper > .heading h1 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 7px;
+}
+
+.main-page > .right-section > .heading-banner-wrapper > .heading span {
+    color: #55d4fc;
+}
+
+.main-page > .right-section > .heading-banner-wrapper > .banner img {
+    height: 370px;
+    box-shadow: -4px 5px 15px 0px rgba(0,0,0,0.64);
+}
+

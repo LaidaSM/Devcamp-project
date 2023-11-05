@@ -1,0 +1,32 @@
+/* Footer styles */
+
+.footer > .for-link-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .for-link-wrapper > .for-link {
+    background-color: #36383f;
+    border: 1px solid #676767;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .for-link-wrapper > .for-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.footer > .for-link-wrapper > .for-link > a span {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 1.2em;
+}
+
+.footer > .footer-bottom-space {
+    background-color: #191a1d;
+    height: 100px;
+}

@@ -2,7 +2,7 @@
 
 .header {
     background-color: black;
-    height: 100px;
+    height: 75px;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
 }
@@ -11,7 +11,7 @@
 
 .header > .left-section {
     height: 100%;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
 .header > .left-section > .logo-header {
@@ -21,7 +21,7 @@
 }
 
 .header > .left-section > .logo-header img {
-    height: 40px;
+    height: 30px;
 }
 
 /* Center section styles */
@@ -40,7 +40,7 @@
 .header > .center-section > .nav-bar-wrapper > .explore-heading h1{
    color: #f4e180;
    text-transform: uppercase;
-   font-size: 1.25em;
+   font-size: 0.9em;
    margin: 0px;
 }
 
@@ -60,18 +60,19 @@
     text-decoration: none;
     color: white;
     font-weight: 1000;
-    font-size: 1.5em;
+    font-size: 1.125em;
 }
 
-.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown {
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown a{
     color: #c9c9c9;
     padding-left: 25px;
-    font-size: 1.5em;
+    font-size: 1.125em;
+    text-decoration: none;
 }
 
 .header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown i{
     padding-left: 10px;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 /* Right section styles */
@@ -83,21 +84,34 @@
 }
 
 .header > .right-section > .btn-wrapper {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.header > .right-section > .btn-wrapper > .create-dropdown {
+.header > .right-section > .btn-wrapper > .btn-link {
     background-color: #36383f;
-    color: white;
-    font-weight: 900;
-    font-size: 1.5em;
-    padding: 20px 30px;
+    font-size: 1.125em;
+    padding: 15px 20px;
     border-radius: 4px;
 }
 
-.header > .right-section > .btn-wrapper > .create-dropdown i{
+.header > .right-section > .btn-wrapper > .btn-link i{
     color: #49c877;
     padding-left: 5px;
+    font-size: 1.2em;
 }
+
+.header > .right-section > .btn-wrapper > .btn-link a{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.header > .right-section > .btn-wrapper > .search-icon i{
+    color: white;
+    filter:brightness(50%);
+    font-size: 1.5em;
+}
+
