@@ -61,13 +61,24 @@
     color: white;
     font-weight: 1000;
     font-size: 1.125em;
+    transition: 0.7s;
 }
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .nav-links > .nav-link a:hover {
+    color: #f4e180;
+}
+
 
 .header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown a{
     color: #c9c9c9;
     padding-left: 25px;
     font-size: 1.125em;
     text-decoration: none;
+    transition: 0.7s;
+}
+
+.header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown a:hover {
+    color: #f4e180;
 }
 
 .header > .center-section > .nav-bar-wrapper > .nav-links-wrapper > .spark-dropdown i{
@@ -107,11 +118,22 @@
     color: white;
     font-weight: 900;
     text-decoration: none;
+    transition: 0.7s;
+}
+
+.header > .right-section > .btn-wrapper > .btn-link a:hover {
+    color: #49c877;
 }
 
 .header > .right-section > .btn-wrapper > .search-icon i{
     color: white;
     filter:brightness(50%);
     font-size: 1.5em;
+    transition: 0.7s;
+}
+
+.header > .right-section > .btn-wrapper > .search-icon i:hover {
+    color: #49c877;
+    filter:brightness(100%);
 }
 
